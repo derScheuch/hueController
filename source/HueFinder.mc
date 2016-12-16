@@ -7,11 +7,11 @@ var appData = new AppData();
 var hueData;
 var notify;
   function initialize(handler, hue) {
-  System.println("jepp");
     Ui.BehaviorDelegate.initialize();
     hueData = hue;
     notify = handler;
   }
+  
   function onSelect() {
     System.println(hueData);
     System.println(hueData.bridge);
@@ -23,6 +23,7 @@ var notify;
   		notify.invoke("trying to link\nwith bridge\npress link button\non bridge");
   	} 
   }
+  
   function onBack() {
      Ui.popView(Ui.SLIDE_IMMEDIATE);
    }

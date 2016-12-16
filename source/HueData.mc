@@ -6,6 +6,7 @@ class HueData {
   var lightMode = 2;
   var stage = 1;
   function initialize(){}
+  
   function setCommandResult(result) {
   	var key = result.keys()[0];
   	var arr = splitString(key, "/");

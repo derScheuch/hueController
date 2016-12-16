@@ -26,28 +26,29 @@ class MainDelegate extends Ui.BehaviorDelegate {
         notify = handler;
     }
     
-    // Handle menu button press
-    function onMenu() {
-       if (hueData.bridge == null || hueData.bridge["ipAdress"] == null) {
+    function handleSelectClick() {
+      if (hueData.bridge == null || hueData.bridge["ipAdress"] == null) {
            createFinderView();
        } else {
            createNewView();
        }
+       return true;
+    }
+     
+    function onMenu() {
+       return handleSelectClick();
     }
 
     function onSelect() {
-       if (hueData.bridge == null || hueData.bridge["ipAdress"] == null) {
-           createFinderView();
-       } else {
-           createNewView();
-        }
-        return true;
+		return handleSelectClick();       
     }
+    
     function  createNewView() {
         var myHueView = new MyHueControllerView();
         var myHueDelegate = new MyHueDelegate(myHueView.method(:onReceive), hueData);
         Ui.pushView(myHueView, myHueDelegate, Ui.SLIDE_IMMEDIATE);
     }
+    
     function createFinderView() {
     	var myFinderView = new HueFinderView();
     	var myHueDelegate = new HueFinder(myFinderView.method(:onReceive), hueData);

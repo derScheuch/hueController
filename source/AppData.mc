@@ -18,7 +18,7 @@ class AppData {
         :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
    };
    
-   var newUserParams = {"devicetype" => "myHueController#garmin"}; // TODO Username of watch into user 
+   var newUserParams = {"devicetype" => "myHueController#garmin"}; 
    
    var lightModes = {
       "night"=>{
