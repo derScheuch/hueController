@@ -3,23 +3,23 @@ using Toybox.WatchUi as Ui;
 using Toybox.Application as App;
 
 class HueFinder extends Ui.BehaviorDelegate { 
-var appData = new AppData();
+
 var hueData;
 var notify;
   function initialize(handler, hue) {
-    Ui.BehaviorDelegate.initialize();
-    hueData = hue;
-    notify = handler;
+     Ui.BehaviorDelegate.initialize();
+     hueData = hue;
+     notify = handler;
   }
   
   function onSelect() {
     System.println(hueData);
     System.println(hueData.bridge);
   	if (hueData.bridge.get("ipAdress") == null) {
-  		makeIpRequest();
+  		HueJson.makeIpRequest(method(:onReceiveIp));
   		notify.invoke("retreiving IP");
   	} else if (hueData.bridge["userId"] == null) {
-  		checkUserNameRequest();
+  		HueJson.checkUserNameRequest(hueData, method(:onReceiveUserName));
   		notify.invoke("trying to link\nwith bridge\npress link button\non bridge");
   	} 
   }
@@ -32,7 +32,7 @@ var notify;
      Comm.makeWebRequest(
        "https://www.meethue.com/api/nupnp",
        {},
-       appData.getParams,
+       AppData.getParams,
        method(:onReceiveIp)
        );
     }
@@ -68,11 +68,5 @@ var notify;
     }
     
     
-    function checkUserNameRequest() {
-       Comm.makeWebRequest(
-          hueData.bridge["ipAdress"]+"/api/",
-        appData.newUserParams,
-        appData.postParams,
-        method(:onReceiveUserName));
-    }
+    
 }

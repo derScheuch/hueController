@@ -1,7 +1,7 @@
 using Toybox.WatchUi as Ui;
 
 class MainView extends Ui.View {
-    var mMessage = "HueController v0.20";
+    var mMessage = "HueController v0.35";
     
     function initialize() {
         View.initialize();

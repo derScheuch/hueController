@@ -1,17 +1,19 @@
 using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 
-class AppData {
+module AppData {
    var putParams = {
   		:method => Comm.HTTP_REQUEST_METHOD_PUT,
         :headers=> {"Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON},
         :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
     };
+    
    var getParams = {
    	:method => Comm.HTTP_REQUEST_METHOD_GET,
         :headers=> {"Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON},
         :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
    };
+   
     var postParams = {
    	:method => Comm.HTTP_REQUEST_METHOD_POST,
         :headers=> {"Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON},

@@ -8,14 +8,13 @@ class MyHueControllerApp extends App.AppBase {
 
     function onStart(state) {
     }
-
     function onStop(state) {
     }
 
     function getInitialView() {
     	mView = new MainView();
         return [mView, new MainDelegate(mView.method(:onReceive))];
-        
+     
     }
 }
 

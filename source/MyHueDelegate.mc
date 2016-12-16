@@ -5,8 +5,7 @@ using Toybox.Application as App;
 class MyHueDelegate extends Ui.BehaviorDelegate {
 
    var hueData;
-   var appData = new AppData();
- 
+  
    var notify;
    
    var selectFromStageOneToTwo = false;
@@ -17,10 +16,8 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
         notify = handler;
         hueData.stage = 1;
         setLights();
-        makeLightsRequest();
+        HueJson.makeLightsRequest(hueData,method(:onReceiveLights));
     }
-
-   
    
     function onKey(evt) {
         if (evt.getKey() == Ui.KEY_ENTER) {
@@ -34,46 +31,12 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
         }
         return false;
     }
-   
-   
-   
-   
-   
-   
-   
-   function makeLightsRequest() {
-      Comm.makeWebRequest(
-         hueData.bridge["ipAdress"]+"/api/"+hueData.bridge["userId"] +"/lights/",
-         {},
-         appData.getParams,
-         method(:onReceiveLights)
-       );
-    }
-   
+  
     function onReceiveLights(responseCode, data) {
        hueData.lights = data;
        setLights();
     }
  
-    
-    
-    
-    function setLight() {
-      var params;
-      var light = "" + (hueData.selectedLight + 1);
-      var lightMode = appData.lightModes.keys()[hueData.lightMode];
-      if (lightMode.equals("cloop") && "colorloop".equals(hueData.lights[light]["state"]["effect"])) {
-        params = appData.lightModes[lightMode]["toggle"];
-      } else {
-        params =  appData.lightModes[lightMode]["params"];
-      }
-      Comm.makeWebRequest(	
-        hueData.bridge["ipAdress"]+"/api/"+hueData.bridge["userId"]+"/lights/"+light+"/state",
-        params,
-        appData.putParams,
-        method(:onSetLight));
-    }
-    
     function onSetLight(responseCode, data) {
     	if (responseCode == 200) {
     		for (var i = 0; i < data.size(); ++ i) {
@@ -84,9 +47,7 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     		}
     		onBack();
     	}
-    }
-       
-   
+    }   
     
     function onSelect() {
     	if (hueData.stage == 1) {
@@ -96,7 +57,7 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     	    selectFromStageOneToTwo = true;
     	} else if (hueData.stage == 2) {
     	    selectFromStageOneToTwo = false;
-    		setLight();
+    		HueJson.setLight(hueData, method(:onSetLight));
     	}
     	return true;
     }
@@ -118,7 +79,7 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     		hueData.selectedLight +=1;
     		repaint();
     	}
-    	if (hueData.stage == 2 && hueData.lightMode +1 < appData.lightModes.size()) {
+    	if (hueData.stage == 2 && hueData.lightMode +1 < AppData.lightModes.size()) {
     		hueData.lightMode += 1;
     		repaint();
     	}

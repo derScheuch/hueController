@@ -2,7 +2,6 @@ using Toybox.WatchUi as Ui;
 
 class MyHueControllerView extends Ui.View {
    var displayLines = {};
-   var appData = new AppData();
    var hueData;
     function initialize() {
         View.initialize();
@@ -68,9 +67,9 @@ class MyHueControllerView extends Ui.View {
     	var widthHalf = width / 2;
     	
     
-		var keys = appData.lightModes.keys();
+		var keys = AppData.lightModes.keys();
     	for (var i = 0; i < keys.size(); ++ i) {
-    	    var d = appData.lightModes[keys[i]];
+    	    var d = AppData.lightModes[keys[i]];
     	    var name = d["name"];
     	    var selected = (i == hueData.lightMode);
     	    var dim = dc.getTextDimensions(name, selected ? Graphics.FONT_SYSTEM_MEDIUM : Graphics.FONT_SYSTEM_TINY);
