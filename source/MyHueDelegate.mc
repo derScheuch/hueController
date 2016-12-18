@@ -43,7 +43,7 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     			var commandResult = data[i].get("success");
     			if (null!= commandResult) {
     				hueData.setCommandResult(commandResult);
-    			}
+    			} 
     		}
     		onBack();
     	}
@@ -63,8 +63,12 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     }
     
     function onPreviousPage() {
-    	if (hueData.stage == 1 && hueData.selectedLight >0) {
-    		hueData.selectedLight -=1;
+    	if (hueData.stage == 1) {
+     	  if (hueData.selectedLight >0) {
+    		   hueData.selectedLight -=1;
+    		} else {
+    	       hueData.selectedLight = hueData.lights.size() - 1;
+    	    }
     		repaint();
     	}
     	else if (hueData.stage == 2 && hueData.lightMode >0) {
@@ -75,8 +79,12 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     }
     
     function onNextPage() {
-    	if (hueData.stage == 1 && hueData.selectedLight +1 < hueData.lights.size()) {
-    		hueData.selectedLight +=1;
+    	if (hueData.stage == 1) {
+    	    if (hueData.selectedLight +1 < hueData.lights.size()) {
+    		   hueData.selectedLight +=1;
+    		} else {
+    		   hueData.selectedLight = 0;
+    		}
     		repaint();
     	}
     	if (hueData.stage == 2 && hueData.lightMode +1 < AppData.lightModes.size()) {
