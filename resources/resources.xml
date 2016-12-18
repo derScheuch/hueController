@@ -1,0 +1,15 @@
+<resources>
+    <bitmaps>
+    </bitmaps>
+
+    <fonts>
+    </fonts>
+
+    <string id="dimm">Dimmed</string>
+    <string id="night">Night</string>
+    <string id="bright">Bright</string>
+    <string id="full">Full</string>
+    <string id="off">off</string>
+    <string id="cloop">color loop</string>
+   
+</resources>

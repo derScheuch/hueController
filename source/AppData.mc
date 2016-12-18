@@ -24,37 +24,37 @@ module AppData {
    
    var lightModes = {
       "night"=>{
-        "name" => "Night",
+        "name" => Ui.loadResource(Rez.Strings.night),
         "params" => {"on"=> true, "bri"=> 1},
         "reachable" => true, 
         "color" => false}
         ,
        "dimm"=>{
-        "name"=>"Dimm",
+        "name"=>Ui.loadResource( Rez.Strings.dimm ),
         "params" => {"on"=> true, "bri"=> 50},
         "reachable" => true, 
         "color" => false}
         ,        
        "bright" => {
-        "name"=>"Bright",
+        "name"=> Ui.loadResource( Rez.Strings.bright ) ,
         "params" => {"on"=> true, "bri"=> 150},
         "reachable" => true, 
         "color" => false}
         ,
        "full" => {
-        "name" => "Full",
+        "name" => Ui.loadResource( Rez.Strings.full ),
         "params" => {"on"=> true, "bri"=> 254},
         "reachable" => true, 
         "color" => false}
         ,
        "off" => {
-        "name"=> "off",
+        "name"=> Ui.loadResource( Rez.Strings.off ),
         "params" => {"on"=> false},
         "reachable" => true, 
         "color" => false} 
         ,
        "cloop" => {
-        "name" => "ColorLoop",
+        "name" => Ui.loadResource( Rez.Strings.cloop),
         "params" => {"effect" => "colorloop"},
         "toggle" => {"effect" => "none"},
         "reachable" => true, 

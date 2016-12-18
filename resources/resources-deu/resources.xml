@@ -1,0 +1,15 @@
+<resources>
+    <bitmaps>
+    </bitmaps>
+
+    <fonts>
+    </fonts>
+
+    <string id="dimm">Gedimmt</string>
+    <string id="night">Nachtmodus</string>
+    <string id="bright">Hell</string>
+    <string id="full">Maximum</string>
+    <string id="off">Aus</string>
+    <string id="cloop">Farbzyklus</string>
+   
+</resources>
