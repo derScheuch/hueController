@@ -28,14 +28,6 @@ var notify;
      Ui.popView(Ui.SLIDE_IMMEDIATE);
    }
   
-  function makeIpRequest() {
-     Comm.makeWebRequest(
-       "https://www.meethue.com/api/nupnp",
-       {},
-       AppData.getParams,
-       method(:onReceiveIp)
-       );
-    }
     
     function onReceiveIp(code, data) {
     System.println(code + " " + data+ " " +data[0]["internalipaddress"]);
