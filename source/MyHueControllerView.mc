@@ -56,6 +56,23 @@ class MyHueControllerView extends Ui.View {
            	dc.fillCircle(widthHalf+ dimx/2+5, y +dimy/2, 8);
     	    y += dimy+4;
     	}
+    	var light = hueData.lights["" + (hueData.selectedLight + 1)];
+    	var brightness = light["state"]["bri"];
+    	var minRad = width > height ? height/2 : widthHalf;
+    	dc.drawArc(widthHalf, height/2 , 
+    		minRad-4,
+    		dc.ARC_CLOCKWISE,
+    		225,
+    		315); 
+    	
+    	dc.setPenWidth(5);
+    	dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+    	dc.drawArc(widthHalf, height/2 , 
+    		minRad,
+    		dc.ARC_CLOCKWISE,
+    		225,
+    		brightness +15 > 225 ? 360 + (225-(brightness+15)) :225 - (brightness+15)); 
+    	dc.setPenWidth(1);
     }
     
     function onUpdateSingleLight(dc) {
@@ -79,6 +96,23 @@ class MyHueControllerView extends Ui.View {
 	       	dc.drawText(widthHalf-dimx/2-5, y, selected ? Graphics.FONT_SYSTEM_MEDIUM : Graphics.FONT_SYSTEM_TINY, name,Graphics.TEXT_JUSTIFY_LEFT);
     		y += dimy +4;   
     	}
+    	var light = hueData.lights["" + (hueData.selectedLight + 1)];
+    	var brightness = light["state"]["bri"];
+    	var minRad = width > height ? height/2 : widthHalf;
+    	dc.drawArc(widthHalf, height/2 , 
+    		minRad-4,
+    		dc.ARC_CLOCKWISE,
+    		225,
+    		315); 
+    	
+    	dc.setPenWidth(5);
+    	dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+    	dc.drawArc(widthHalf, height/2 , 
+    		minRad,
+    		dc.ARC_CLOCKWISE,
+    		225,
+    		brightness +15 > 225 ? 360 + (225-(brightness+15)) :225 - (brightness+15)); 
+    	dc.setPenWidth(1);
     }
     
     function onUpdate(dc) {
