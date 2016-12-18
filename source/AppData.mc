@@ -25,29 +25,39 @@ module AppData {
    var lightModes = {
       "night"=>{
         "name" => "Night",
-        "params" => {"on"=> true, "bri"=> 1}}
-        
+        "params" => {"on"=> true, "bri"=> 1},
+        "reachable" => true, 
+        "color" => false}
         ,
        "dimm"=>{
         "name"=>"Dimm",
-        "params" => {"on"=> true, "bri"=> 50}}
-        
+        "params" => {"on"=> true, "bri"=> 50},
+        "reachable" => true, 
+        "color" => false}
         ,        
        "bright" => {
         "name"=>"Bright",
-        "params" => {"on"=> true, "bri"=> 150}}
+        "params" => {"on"=> true, "bri"=> 150},
+        "reachable" => true, 
+        "color" => false}
         ,
        "full" => {
         "name" => "Full",
-        "params" => {"on"=> true, "bri"=> 254}}
+        "params" => {"on"=> true, "bri"=> 254},
+        "reachable" => true, 
+        "color" => false}
         ,
        "off" => {
         "name"=> "off",
-        "params" => {"on"=> false}} 
+        "params" => {"on"=> false},
+        "reachable" => true, 
+        "color" => false} 
         ,
        "cloop" => {
         "name" => "ColorLoop",
         "params" => {"effect" => "colorloop"},
-        "toggle" => {"effect" => "none"}}
+        "toggle" => {"effect" => "none"},
+        "reachable" => true, 
+        "color" => true}
        };      
 }

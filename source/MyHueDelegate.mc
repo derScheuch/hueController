@@ -71,8 +71,13 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     	    }
     		repaint();
     	}
-    	else if (hueData.stage == 2 && hueData.lightMode >0) {
-    	   hueData.lightMode -= 1;
+    	else if (hueData.stage == 2) {
+    	    if (hueData.lightMode >0) {
+    	        hueData.lightMode -= 1;
+    	    } else {
+    	    	hueData.lightMode = AppData.lightModes.size()-1;
+    	    }
+    	   
     	   repaint();
     	}
     	return true;
@@ -87,8 +92,13 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     		}
     		repaint();
     	}
-    	if (hueData.stage == 2 && hueData.lightMode +1 < AppData.lightModes.size()) {
-    		hueData.lightMode += 1;
+    	if (hueData.stage == 2) {
+    		if (hueData.lightMode +1 < AppData.lightModes.size()) {
+    		    hueData.lightMode += 1;
+    		} else {
+    		    hueData.lightMode = 0;
+    		}
+    		
     		repaint();
     	}
     	return true;
