@@ -1,0 +1,18 @@
+<resources>
+    <bitmaps>
+    </bitmaps>
+
+    <fonts>
+    </fonts>
+
+    <string id="y_text_1">36</string>
+    <string id="y_text_2">60</string>
+    <string id="y_text_3">90</string>
+    <string id="y_text_4">120</string>
+    <string id="y_text_5">144</string>
+    <string id="y_text_6">164</string>
+   <string id= "x_text_start">70</string>
+    <string id ="y_bottom_line">159</string>
+    <string id ="dc_line_delta">18</string>
+    
+</resources>

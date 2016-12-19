@@ -6,10 +6,11 @@
     </fonts>
 
     <string id="dimm">Dimmed</string>
-    <string id="night">Night</string>
+    <string id="night">Nightmode</string>
     <string id="bright">Bright</string>
     <string id="full">Full</string>
-    <string id="off">off</string>
-    <string id="cloop">color loop</string>
-   
+    <string id="off">Off</string>
+    <string id="cloop">Color Loop</string>
+	
+    <string id="y_text_1">50</string>
 </resources>

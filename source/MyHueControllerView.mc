@@ -1,5 +1,25 @@
 using Toybox.WatchUi as Ui;
 
+
+// origin programming for FenixDisplay#
+// Fenix			x	geht				rund
+// Fenix HR			x	geht				rund
+// fenix Chronos 		geht nicht			rund	Absturz Fehler in json=????
+// Forerunner 630 		geht 	 	Touch	rund	adjust Diemsnions (bisschenkleiner)
+// Forerunner 235 		geht				rund	Adjust Dimesnions					
+// Forerunner 735xt 	geht				rund	adjust dimensions
+// Forerunner 230 		geht				rund	adjust dimensions
+// Forerunner 920xt 	geht				quadr 	quadratisch
+// vivoactive, 			geht nicht					Absturz, Fehler in json ...außerdem quadratisch
+// vivoactive HR        geht nicht					ABSTURZ; fEHLER IM JSON:::außerdem quadratisch, TOUCH??
+// D2 Bravo			x 	geht				rund
+// Titanium 		x	geht				rund
+// EDGE	1000			geht 		Touch	groß	adjus Dimesnions
+// EDGE 520				geht				groß, 	adjust Dimension
+// EDGE 820				geht 		Touch	groß 	adjust Dimensions
+// Oregon 7				geht		touch	groß	adjust Dimension
+// RINO 7				geht		touch	groß	adjust Dimension
+//
 class MyHueControllerView extends Ui.View {
    var displayLines = {};
    var hueData;
@@ -67,7 +87,6 @@ class MyHueControllerView extends Ui.View {
     	   return;
         }
     	var keys = hueData.lights.keys();
-    	var y = 15;
     	
     	var startIndex = hueData.selectedLight - 2;
     	var endIndex = hueData.selectedLight +2;
@@ -84,7 +103,7 @@ class MyHueControllerView extends Ui.View {
    		if (keys.size() > 2){drawUnSelectedLight(dc,hueData.lights[keys[(startIndex+3)%keys.size()]], X_TEXT_START, Y_TEXT_4);}
    		if (keys.size() > 4){drawUnSelectedLight(dc,hueData.lights[keys[(startIndex+4)%keys.size()]], X_TEXT_START, Y_TEXT_5);}
    		dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);
-   		dc.drawLine(DC_LINE_SPACE,181, DC_WIDTH-DC_LINE_SPACE, 181);
+   		dc.drawLine(DC_LINE_SPACE,Y_BOTTOM_LINE, DC_WIDTH-DC_LINE_SPACE, Y_BOTTOM_LINE);
    		drawLightArc(dc);		
     }
     
@@ -94,6 +113,8 @@ class MyHueControllerView extends Ui.View {
     var Y_TEXT_3;
     var Y_TEXT_4;
     var Y_TEXT_5;
+    var Y_TEXT_6;
+    var Y_BOTTOM_LINE;
     var DC_WIDTH;
     var DC_HEIGHT;
     var dc_initialized = false;
@@ -103,20 +124,23 @@ class MyHueControllerView extends Ui.View {
     var DC_LINE_DELTA;
     var DC_LINE_SPACE;
     function initialieDcParams(dc) {
-    dc_initialized = true;
+    	dc_initialized = true;
     	DC_WIDTH = dc.getWidth();
     	DC_HEIGHT = dc.getHeight();
-    	X_TEXT_START = DC_WIDTH / 4;
-    	Y_TEXT_1 = 50;
-    	Y_TEXT_2 = 74;
-    	Y_TEXT_3 = DC_WIDTH / 2;
-    	Y_TEXT_4 = 142;
-    	Y_TEXT_5 = 166;
+    	System.println(DC_HEIGHT + " " + DC_WIDTH);
+    	X_TEXT_START =  Ui.loadResource(Rez.Strings.x_text_start).toNumber();
+    	Y_TEXT_1 = Ui.loadResource(Rez.Strings.y_text_1).toNumber();
+    	Y_TEXT_2 = Ui.loadResource(Rez.Strings.y_text_2).toNumber() ; 
+    	Y_TEXT_3 = Ui.loadResource(Rez.Strings.y_text_3).toNumber() ;
+    	Y_TEXT_4 = Ui.loadResource(Rez.Strings.y_text_4).toNumber() ;
+    	Y_TEXT_5 = Ui.loadResource(Rez.Strings.y_text_5).toNumber() ;
+    	Y_TEXT_6 = Ui.loadResource(Rez.Strings.y_text_6).toNumber() ;
     	DC_MIN_RAD = DC_WIDTH > DC_HEIGHT ? DC_HEIGHT/2 : DC_WIDTH/2;
     	DC_WIDTH_HALF = DC_WIDTH/2;
     	DC_HEIGHT_HALF = DC_HEIGHT/2;
-    	DC_LINE_DELTA = 20;
+    	DC_LINE_DELTA =  Ui.loadResource(Rez.Strings.dc_line_delta).toNumber(); //20;
     	DC_LINE_SPACE = 24;
+    	Y_BOTTOM_LINE = Ui.loadResource(Rez.Strings.y_bottom_line).toNumber(); 
     }
     	
     
@@ -133,12 +157,12 @@ class MyHueControllerView extends Ui.View {
     	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
     	
     	dc.drawArc(DC_WIDTH_HALF, DC_HEIGHT_HALF , 
-    		DC_MIN_RAD-4,
+    		DC_MIN_RAD-5,
     		dc.ARC_CLOCKWISE,
     		225,
     		315); 
     	
-    	dc.setPenWidth(5);
+    	dc.setPenWidth(9);
     	if (reachable && on) {
     	   dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
     	} else {
@@ -170,9 +194,9 @@ class MyHueControllerView extends Ui.View {
    		drawUnSelectedLightMode(dc,AppData.lightModes[keys[(startIndex+3)%keys.size()]], X_TEXT_START, Y_TEXT_4);
    		drawUnSelectedLightMode(dc,AppData.lightModes[keys[(startIndex+4)%keys.size()]], X_TEXT_START, Y_TEXT_5);
    		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-   		dc.drawText(DC_WIDTH_HALF, 192,	Graphics.FONT_SYSTEM_TINY, hueData.lights[""+(hueData.selectedLight+1)]["name"],Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+   		dc.drawText(DC_WIDTH_HALF, Y_TEXT_6, Graphics.FONT_SYSTEM_TINY, hueData.lights[""+(hueData.selectedLight+1)]["name"],Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
    		dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);
-   		dc.drawLine(DC_LINE_SPACE,181, DC_WIDTH-DC_LINE_SPACE, 181);
+   		dc.drawLine(DC_LINE_SPACE,Y_BOTTOM_LINE, DC_WIDTH-DC_LINE_SPACE, Y_BOTTOM_LINE);
    		drawLightArc(dc);		
     }
     function drawUnSelectedLightMode(dc, lightMode, x, y) {

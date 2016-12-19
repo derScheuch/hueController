@@ -3,19 +3,21 @@
 	<iq:application entry="MyHueControllerApp" id="BDA0E68C8FDF4B9AAED49E8D8E0A3934" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="1.2.1" name="@Strings.AppName" type="widget">
 
 		<iq:products>
-            <iq:product id="round_watch"/>
+            <iq:product id="fr630"/>
+            <iq:product id="fr235"/>
+            <iq:product id="fr735xt"/>
+            <iq:product id="fr230"/>
             <iq:product id="fenix3"/>
             <iq:product id="fenix3_hr"/>
+            <iq:product id="d2bravo"/>
+            <iq:product id="d2bravo_titanium"/>
         </iq:products>
 
 		<iq:permissions>
             <iq:uses-permission id="Communications"/>
         </iq:permissions>
 
-		<iq:languages>
-            <iq:language>deu</iq:language>
-            <iq:language>eng</iq:language>
-        </iq:languages>
+		<iq:languages/>
 
 	</iq:application>
 </iq:manifest>
