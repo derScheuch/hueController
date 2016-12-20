@@ -1,0 +1,9 @@
+<settings>
+
+    <setting propertyKey="@Properties.ipAdress" title="@Strings.ipAdress">
+        <settingConfig type="alphaNumeric" readonly="false" />
+    </setting>
+    <setting propertyKey="@Properties.forceNewSearch" title="@Strings.forceNewSearch">
+        <settingConfig type="boolean" readonly="false" />
+    </setting>
+</settings>

@@ -13,4 +13,6 @@
     <string id="cloop">Color Loop</string>
 	
     <string id="y_text_1">50</string>
+    <string id="ipAdress">IP Adress</string>
+    <string id="forceNewSearch">Force IP Search</string>
 </resources>

@@ -1,0 +1,4 @@
+<properties>
+    <property id="ipAdress" type="string">unknown</property>
+    <property id="forceNewSearch" type="boolean">false</property>
+</properties>

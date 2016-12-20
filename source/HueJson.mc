@@ -33,12 +33,12 @@ module HueJson {
         receiver);
     }
     
-    function makeIpRequest(receiver) {
-     Comm.makeWebRequest(
+    function makeIpRequest(	receiver) {
+       Comm.makeWebRequest(
        "https://www.meethue.com/api/nupnp",
        {},
        AppData.getParams,
-       method(receiver)
+       receiver
        );
     }
   
