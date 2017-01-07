@@ -1,8 +1,9 @@
 using Toybox.Communications as Comm;
-
-module HueJson {
+using Toybox.WatchUi as Ui;
+using Toybox.Application as App;
+class HueJson {
  
-   function makeLightsRequest(hueData, receiver) {
+   static function makeLightsRequest(hueData, receiver) {
       Comm.makeWebRequest(
          hueData.bridge["ipAdress"]+"/api/"+hueData.bridge["userId"] +"/lights/",
          {},
@@ -10,9 +11,11 @@ module HueJson {
          receiver
        );
     }
-    function setLight(hueData, receiver) {
+    static function setLight(hueData, receiver) {
       var params;
-      var light = "" + (hueData.selectedLight + 1);
+      //var light = "" + (hueData.selectedLight + 1);
+      //System.println("hueData.selectedLight");
+      var light = hueData.lights.keys()[hueData.selectedLight];
       var lightMode = AppData.lightModes.keys()[hueData.lightMode];
       if (lightMode.equals("cloop") && "colorloop".equals(hueData.lights[light]["state"]["effect"])) {
         params = AppData.lightModes[lightMode]["toggle"];
@@ -25,7 +28,7 @@ module HueJson {
         AppData.putParams,
         receiver);
     }
-    function checkUserNameRequest(hueData, receiver) {
+    static function checkUserNameRequest(hueData, receiver) {
        Comm.makeWebRequest(
           hueData.bridge["ipAdress"]+"/api/",
         AppData.newUserParams,
@@ -33,7 +36,7 @@ module HueJson {
         receiver);
     }
     
-    function makeIpRequest(	receiver) {
+    static function makeIpRequest(	receiver) {
        Comm.makeWebRequest(
        "https://www.meethue.com/api/nupnp",
        {},

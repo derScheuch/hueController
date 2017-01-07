@@ -17,7 +17,7 @@ class MainView extends Ui.View {
     }
 
     function onUpdate(dc) {
-    	mMessage = "HueController v0.57\n"+checkSystem();
+    	mMessage = "HueController v0.58\n"+checkSystem();
     	System.println("OnUpdate MainView");
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.clear();

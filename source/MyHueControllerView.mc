@@ -146,7 +146,8 @@ class MyHueControllerView extends Ui.View {
     	
     
     function getCurrentLightData() {
-    	return hueData.lights["" + (hueData.selectedLight + 1)];
+    	var light = hueData.lights.keys()[hueData.selectedLight];
+    	return hueData.lights[light];
     }
     
  	function drawLightArc(dc) {
@@ -195,7 +196,8 @@ class MyHueControllerView extends Ui.View {
    		drawUnSelectedLightMode(dc,AppData.lightModes[keys[(startIndex+3)%keys.size()]], X_TEXT_START, Y_TEXT_4);
    		drawUnSelectedLightMode(dc,AppData.lightModes[keys[(startIndex+4)%keys.size()]], X_TEXT_START, Y_TEXT_5);
    		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-   		dc.drawText(DC_WIDTH_HALF, Y_TEXT_6, Graphics.FONT_SYSTEM_TINY, hueData.lights[""+(hueData.selectedLight+1)]["name"],Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+   		var light = hueData.lights.keys()[hueData.selectedLight];
+   		dc.drawText(DC_WIDTH_HALF, Y_TEXT_6, Graphics.FONT_SYSTEM_TINY, hueData.lights[light]["name"],Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
    		dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_BLACK);
    		dc.drawLine(DC_LINE_SPACE,Y_BOTTOM_LINE, DC_WIDTH-DC_LINE_SPACE, Y_BOTTOM_LINE);
    		drawLightArc(dc);		
