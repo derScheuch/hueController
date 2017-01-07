@@ -1,17 +1,17 @@
 <resources>
-    <bitmaps>
-    </bitmaps>
+	<bitmaps>
+	</bitmaps>
 
-    <fonts>
-    </fonts>
+	<fonts>
+	</fonts>
 
-    <string id="y_text_1">50</string>
-    <string id="y_text_2">74</string>
-    <string id="y_text_3">109</string>
-    <string id="y_text_4">142</string>
-    <string id="y_text_5">166</string>
-    <string id="y_text_6">192</string>
-    <string id= "x_text_start">55</string>
-    <string id ="y_bottom_line">181</string>
-    <string id ="dc_line_delta">18</string>
+	<string id="y_text_1">50</string>
+	<string id="y_text_2">74</string>
+	<string id="y_text_3">109</string>
+	<string id="y_text_4">142</string>
+	<string id="y_text_5">166</string>
+	<string id="y_text_6">192</string>
+	<string id="x_text_start">55</string>
+	<string id="y_bottom_line">181</string>
+	<string id="dc_line_delta">18</string>
 </resources>

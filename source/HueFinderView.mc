@@ -34,7 +34,7 @@ class HueFinderView extends Ui.View {
       // TODO alle requests canceln
     }
     function onReceive(data) {
-      mMessage = "HueController v0.20\n"+data;
+      mMessage = ""+data;
       Ui.requestUpdate();
     }
  }

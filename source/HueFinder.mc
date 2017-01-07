@@ -26,14 +26,26 @@ var notify;
   	if (hueData.bridge.get("ipAdress") == null) {
   		HueJson.makeIpRequest(method(:onReceiveIp));
   		notify.invoke("retreiving IP");
-  	} else  {
+  	} else if (hueData.bridge.get("userId") == null) {
   		HueJson.checkUserNameRequest(hueData, method(:onReceiveUserName));
   		notify.invoke("trying to link\nwith bridge\n"+hueData.bridge["ipAdress"]+"\npress link button\non bridge");
-  	} 
+  	} else {
+  		HueJson.makeLightsRequest(hueData, method(:onReceiveLights));
+  		notify.invoke("Retrieving Lights\nthis may take a while...");
+  	}
+  	return true;
   }
   
+  function onReceiveLights(responseCode, data) {
+    	if (responseCode == 200) {
+       		hueData.lights = data;
+       		App.getApp().setProperty("lights", hueData.lights);
+       		notify.invoke("Lights received\npress back!");
+       	} 
+    }
   function onBack() {
      Ui.popView(Ui.SLIDE_IMMEDIATE);
+     return true;
    }
   
     function onReceiveIp(code, data) {
@@ -44,18 +56,18 @@ var notify;
           bridge.put("id",data[0]["id"]);
           notify.invoke ("Found hueBridge at\n"+bridge["ipAdress"]+"\npress button on bridge\nto link the bridge\nthen press SELECT");
           hueData.bridge = bridge;
-          
         } else {
           notify.invoke ("Error wwhile\ncommunicating...\ncode:"+code);
         }  
     }
+    
     function onReceiveUserName(code, data) {
         System.println(code + " " + data);
     	if (code == 200) {
     	   if (null == data[0]["error"]) {
     	   		hueData.bridge.put("userId", data[0]["success"]["username"]);
     	   		System.println("username ----"+hueData.bridge.get("userId"));
-    	   		notify.invoke("connection\nestablished");
+    	   		notify.invoke("connection\nestablished\npress select to\nretrieve lights");
     	   		App.getApp().setProperty("bridge", hueData.bridge);
     			App.getApp().setProperty("lights", hueData.lights);
     			App.getApp().setProperty("ipAadress", hueData.bridge["ipAdress"]);

@@ -1,607 +1,629 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="3" pc="268435456" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="4" pc="268435460" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="5" pc="268435468" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="6" pc="268435488" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="7" pc="268435503" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="8" pc="268435510" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="9" pc="268435540" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="11" pc="268435575" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="12" pc="268435589" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="14" pc="268435599" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="16" pc="268435603" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="17" pc="268435607" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="18" pc="268435627" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="19" pc="268435634" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="21" pc="268435640" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="22" pc="268435660" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="24" pc="268435666" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="25" pc="268435684" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="26" pc="268435700" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="27" pc="268435725" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="30" pc="268435744" symbol="isValidIpAdress"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="13" pc="268435749" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="14" pc="268435753" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="15" pc="268435775" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="16" pc="268435785" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="17" pc="268435795" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="18" pc="268435814" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="19" pc="268435826" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="22" pc="268435869" symbol="onKey"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="23" pc="268435873" symbol="onKey"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="24" pc="268435900" symbol="onKey"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="26" pc="268435942" symbol="onKey"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="28" pc="268435984" symbol="onKey"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="30" pc="268436026" symbol="onKey"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="32" pc="268436041" symbol="onKey"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="35" pc="268436045" symbol="onReceiveLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="36" pc="268436049" symbol="onReceiveLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="37" pc="268436065" symbol="onReceiveLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="40" pc="268436078" symbol="onSetLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="41" pc="268436082" symbol="onSetLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="42" pc="268436093" symbol="onSetLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="43" pc="268436117" symbol="onSetLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="44" pc="268436138" symbol="onSetLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="45" pc="268436145" symbol="onSetLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="48" pc="268436181" symbol="onSetLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="52" pc="268436197" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="53" pc="268436201" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="54" pc="268436224" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="55" pc="268436249" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="56" pc="268436268" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="57" pc="268436280" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="59" pc="268436316" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="60" pc="268436326" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="62" pc="268436371" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="65" pc="268436375" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="66" pc="268436379" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="67" pc="268436402" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="68" pc="268436425" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="70" pc="268436453" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="72" pc="268436496" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="75" pc="268436534" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="76" pc="268436557" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="78" pc="268436585" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="81" pc="268436628" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="83" pc="268436643" symbol="onPreviousPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="86" pc="268436647" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="87" pc="268436651" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="88" pc="268436674" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="89" pc="268436721" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="91" pc="268436749" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="93" pc="268436768" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="95" pc="268436783" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="96" pc="268436806" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="97" pc="268436853" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="99" pc="268436881" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="102" pc="268436900" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="104" pc="268436915" symbol="onNextPage"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="106" pc="268436919" symbol="onNextMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="107" pc="268436923" symbol="onNextMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="109" pc="268436927" symbol="onPreviousMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="110" pc="268436931" symbol="onPreviousMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="112" pc="268436935" symbol="onMenu"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="113" pc="268436939" symbol="onMenu"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="115" pc="268436943" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="116" pc="268436947" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="117" pc="268436970" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="118" pc="268436989" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="119" pc="268437001" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="122" pc="268437030" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="123" pc="268437049" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="124" pc="268437077" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="125" pc="268437102" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="126" pc="268437126" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="128" pc="268437187" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="129" pc="268437231" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="130" pc="268437275" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="132" pc="268437281" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="135" pc="268437285" symbol="repaint"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="136" pc="268437289" symbol="repaint"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="139" pc="268437316" symbol="setLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="140" pc="268437320" symbol="setLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="141" pc="268437343" symbol="setLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="143" pc="268437365" symbol="setLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="144" pc="268437384" symbol="setLights"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="26" pc="268437397" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="27" pc="268437401" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="30" pc="268437420" symbol="onLayout"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="31" pc="268437424" symbol="onLayout"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="34" pc="268437462" symbol="onShow"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="38" pc="268437467" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="39" pc="268437471" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="40" pc="268437491" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="41" pc="268437531" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="42" pc="268437541" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="43" pc="268437557" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="44" pc="268437573" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="45" pc="268437585" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="46" pc="268437625" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="47" pc="268437686" symbol="drawUnSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="50" pc="268437718" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="51" pc="268437722" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="52" pc="268437738" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="53" pc="268437754" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="54" pc="268437766" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="55" pc="268437766" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="56" pc="268437771" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="58" pc="268437790" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="59" pc="268437795" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="60" pc="268437800" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="62" pc="268437819" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="65" pc="268437838" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="68" pc="268437854" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="69" pc="268437882" symbol="drawLightCircle"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="72" pc="268437901" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="73" pc="268437905" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="74" pc="268437945" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="75" pc="268437955" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="76" pc="268437995" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="77" pc="268438056" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="78" pc="268438096" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="79" pc="268438155" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="80" pc="268438214" symbol="drawSelectedLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="83" pc="268438246" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="84" pc="268438250" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="85" pc="268438290" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="86" pc="268438302" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="87" pc="268438350" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="89" pc="268438354" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="91" pc="268438379" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="92" pc="268438401" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="93" pc="268438423" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="94" pc="268438434" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="96" pc="268438465" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="97" pc="268438500" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="99" pc="268438531" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="100" pc="268438535" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="100" pc="268438555" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="101" pc="268438608" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="101" pc="268438628" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="102" pc="268438699" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="103" pc="268438761" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="103" pc="268438781" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="104" pc="268438852" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="104" pc="268438872" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="105" pc="268438943" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="106" pc="268438983" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="107" pc="268439036" symbol="onUpdateLightsList"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="126" pc="268439051" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="127" pc="268439055" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="128" pc="268439065" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="129" pc="268439084" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="130" pc="268439103" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="131" pc="268439144" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="132" pc="268439196" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="133" pc="268439248" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="134" pc="268439300" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="135" pc="268439352" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="136" pc="268439404" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="137" pc="268439456" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="138" pc="268439508" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="139" pc="268439567" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="140" pc="268439589" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="141" pc="268439611" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="142" pc="268439663" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="143" pc="268439676" symbol="initialieDcParams"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="147" pc="268439729" symbol="getCurrentLightData"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="148" pc="268439733" symbol="getCurrentLightData"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="151" pc="268439776" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="152" pc="268439780" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="153" pc="268439793" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="154" pc="268439809" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="155" pc="268439825" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="157" pc="268439841" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="159" pc="268439881" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="165" pc="268439941" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="166" pc="268439958" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="167" pc="268439971" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="169" pc="268440014" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="171" pc="268440054" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="176" pc="268440157" symbol="drawLightArc"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="179" pc="268440175" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="180" pc="268440179" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="181" pc="268440219" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="182" pc="268440231" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="183" pc="268440253" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="184" pc="268440275" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="185" pc="268440286" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="187" pc="268440317" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="188" pc="268440352" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="190" pc="268440383" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="191" pc="268440408" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="192" pc="268440458" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="193" pc="268440526" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="194" pc="268440588" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="195" pc="268440656" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="196" pc="268440724" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="197" pc="268440764" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="198" pc="268440882" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="199" pc="268440922" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="200" pc="268440975" symbol="onUpdateSingleLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="202" pc="268440990" symbol="drawUnSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="203" pc="268440994" symbol="drawUnSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="204" pc="268441007" symbol="drawUnSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="205" pc="268441025" symbol="drawUnSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="207" pc="268441068" symbol="drawUnSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="209" pc="268441108" symbol="drawUnSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="211" pc="268441176" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="212" pc="268441180" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="213" pc="268441193" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="214" pc="268441211" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="216" pc="268441254" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="218" pc="268441294" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="219" pc="268441361" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="220" pc="268441401" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="221" pc="268441460" symbol="drawSelectedLightMode"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="223" pc="268441520" symbol="isValidLightModeForLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="224" pc="268441524" symbol="isValidLightModeForLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="225" pc="268441540" symbol="isValidLightModeForLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="226" pc="268441546" symbol="isValidLightModeForLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="228" pc="268441552" symbol="isValidLightModeForLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="229" pc="268441563" symbol="isValidLightModeForLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="231" pc="268441591" symbol="isValidLightModeForLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="236" pc="268441595" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="237" pc="268441599" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="238" pc="268441611" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="240" pc="268441628" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="241" pc="268441651" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="243" pc="268441668" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="247" pc="268441683" symbol="onHide"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="252" pc="268441688" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="253" pc="268441692" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="254" pc="268441702" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="6" pc="268441719" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="7" pc="268441723" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="10" pc="268441742" symbol="onLayout"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="11" pc="268441746" symbol="onLayout"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="14" pc="268441784" symbol="onShow"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="17" pc="268441789" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="18" pc="268441793" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="19" pc="268441833" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="20" pc="268441845" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="24" pc="268441943" symbol="onHide"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="27" pc="268441948" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="28" pc="268441952" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="29" pc="268441968" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="9" pc="268441985" symbol="ipAdressChanged"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="10" pc="268441989" symbol="ipAdressChanged"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="11" pc="268442020" symbol="ipAdressChanged"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="12" pc="268442051" symbol="ipAdressChanged"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="14" pc="268442080" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="15" pc="268442084" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="16" pc="268442106" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="17" pc="268442136" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="20" pc="268442167" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="21" pc="268442210" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="22" pc="268442253" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="23" pc="268442300" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="25" pc="268442334" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="26" pc="268442365" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="28" pc="268442394" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="29" pc="268442401" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="30" pc="268442420" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="32" pc="268442433" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="34" pc="268442470" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="35" pc="268442480" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="37" pc="268442494" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="40" pc="268442505" symbol="handleSelectClick"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="41" pc="268442509" symbol="handleSelectClick"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="42" pc="268442573" symbol="handleSelectClick"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="44" pc="268442588" symbol="handleSelectClick"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="46" pc="268442600" symbol="handleSelectClick"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="49" pc="268442604" symbol="onMenu"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="50" pc="268442608" symbol="onMenu"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="53" pc="268442621" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="54" pc="268442625" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="57" pc="268442638" symbol="createNewView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="58" pc="268442642" symbol="createNewView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="59" pc="268442666" symbol="createNewView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="60" pc="268442714" symbol="createNewView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="63" pc="268442747" symbol="createFinderView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="64" pc="268442751" symbol="createFinderView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="65" pc="268442775" symbol="createFinderView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="66" pc="268442823" symbol="createFinderView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="5" pc="268442856" symbol="makeLightsRequest"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="6" pc="268442860" symbol="makeLightsRequest"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="13" pc="268442940" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="14" pc="268442944" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="15" pc="268442944" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="16" pc="268442966" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="17" pc="268443000" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="18" pc="268443062" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="20" pc="268443090" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="22" pc="268443115" symbol="setLight"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="28" pc="268443200" symbol="checkUserNameRequest"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="29" pc="268443204" symbol="checkUserNameRequest"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="36" pc="268443271" symbol="makeIpRequest"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="37" pc="268443275" symbol="makeIpRequest"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="8" pc="268443319" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="9" pc="268443323" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="10" pc="268443336" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="11" pc="268443367" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="12" pc="268443389" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="14" pc="268443420" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="16" pc="268443439" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="17" pc="268443458" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="20" pc="268443477" symbol="onLayout"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="21" pc="268443481" symbol="onLayout"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="24" pc="268443519" symbol="onShow"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="27" pc="268443524" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="28" pc="268443528" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="29" pc="268443568" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="30" pc="268443580" symbol="onUpdate"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="33" pc="268443678" symbol="onHide"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="36" pc="268443683" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="37" pc="268443687" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="38" pc="268443703" symbol="onReceive"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="9" pc="268443720" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="10" pc="268443724" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="11" pc="268443746" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="12" pc="268443756" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="15" pc="268443767" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="16" pc="268443771" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="17" pc="268443797" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="18" pc="268443829" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="19" pc="268443848" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="21" pc="268443871" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="22" pc="268443902" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="23" pc="268443924" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="24" pc="268443961" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="26" pc="268443993" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="27" pc="268444026" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="28" pc="268444060" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="30" pc="268444086" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="31" pc="268444128" symbol="onSelect"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="35" pc="268444179" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="36" pc="268444183" symbol="onBack"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="39" pc="268444212" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="40" pc="268444216" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="41" pc="268444266" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="42" pc="268444277" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="43" pc="268444285" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="44" pc="268444322" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="45" pc="268444353" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="46" pc="268444391" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="49" pc="268444410" symbol="onReceiveIp"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="52" pc="268444437" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="53" pc="268444441" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="54" pc="268444470" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="55" pc="268444481" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="56" pc="268444500" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="57" pc="268444549" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="58" pc="268444601" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="59" pc="268444624" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="60" pc="268444668" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="61" pc="268444712" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="62" pc="268444762" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="64" pc="268444797" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="67" pc="268444859" symbol="onReceiveUserName"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="8" pc="268444886" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="10" pc="268444891" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="11" pc="268444895" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="12" pc="268444914" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="13" pc="268444934" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="14" pc="268444963" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="15" pc="268444988" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="16" pc="268444995" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="17" pc="268445005" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="18" pc="268445028" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="19" pc="268445038" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="21" pc="268445051" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="22" pc="268445068" symbol="setCommandResult"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="25" pc="268445102" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="26" pc="268445106" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="27" pc="268445114" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="28" pc="268445134" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="29" pc="268445149" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="30" pc="268445156" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="31" pc="268445186" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="33" pc="268445221" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="34" pc="268445235" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="36" pc="268445245" symbol="splitString"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="5" pc="268445249" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="6" pc="268445253" symbol="initialize"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="9" pc="268445272" symbol="onStart"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="11" pc="268445277" symbol="onStop"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="14" pc="268445282" symbol="getInitialView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="15" pc="268445286" symbol="getInitialView"/>
-<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="16" pc="268445316" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="36" pc="268445392" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="38" pc="268445396" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="39" pc="268445527" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="40" pc="268445579" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="43" pc="268445631" symbol="MainLayout"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="5" pc="268435456" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="6" pc="268435460" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="7" pc="268435468" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="8" pc="268435488" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="9" pc="268435503" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="10" pc="268435510" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="11" pc="268435540" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="13" pc="268435575" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="14" pc="268435589" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="16" pc="268435599" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="18" pc="268435603" symbol="ipAdressChanged"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="19" pc="268435607" symbol="ipAdressChanged"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="20" pc="268435638" symbol="ipAdressChanged"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="21" pc="268435669" symbol="ipAdressChanged"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="23" pc="268435698" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="24" pc="268435702" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="25" pc="268435709" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="27" pc="268435715" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="28" pc="268435735" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="29" pc="268435742" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="31" pc="268435748" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="32" pc="268435768" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="34" pc="268435774" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="35" pc="268435792" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="36" pc="268435808" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="37" pc="268435833" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\Util.mc" lineNum="40" pc="268435852" symbol="isValidIpAdress"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="13" pc="268435857" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="14" pc="268435861" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="15" pc="268435883" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="16" pc="268435893" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="17" pc="268435903" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="18" pc="268435922" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="19" pc="268435934" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="22" pc="268435977" symbol="onKey"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="23" pc="268435981" symbol="onKey"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="24" pc="268436008" symbol="onKey"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="26" pc="268436050" symbol="onKey"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="28" pc="268436092" symbol="onKey"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="30" pc="268436134" symbol="onKey"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="32" pc="268436149" symbol="onKey"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="35" pc="268436153" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="36" pc="268436157" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="37" pc="268436168" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="38" pc="268436184" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="42" pc="268436200" symbol="onSetLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="43" pc="268436204" symbol="onSetLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="44" pc="268436215" symbol="onSetLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="45" pc="268436239" symbol="onSetLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="46" pc="268436260" symbol="onSetLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="47" pc="268436267" symbol="onSetLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="50" pc="268436303" symbol="onSetLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="54" pc="268436319" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="55" pc="268436323" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="56" pc="268436346" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="57" pc="268436371" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="58" pc="268436390" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="59" pc="268436402" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="61" pc="268436438" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="62" pc="268436448" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="64" pc="268436493" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="67" pc="268436497" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="68" pc="268436501" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="69" pc="268436524" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="70" pc="268436547" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="72" pc="268436575" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="74" pc="268436618" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="77" pc="268436656" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="78" pc="268436679" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="80" pc="268436707" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="83" pc="268436750" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="85" pc="268436765" symbol="onPreviousPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="88" pc="268436769" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="89" pc="268436773" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="90" pc="268436796" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="91" pc="268436843" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="93" pc="268436871" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="95" pc="268436890" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="97" pc="268436905" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="98" pc="268436928" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="99" pc="268436975" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="101" pc="268437003" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="104" pc="268437022" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="106" pc="268437037" symbol="onNextPage"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="108" pc="268437041" symbol="onNextMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="109" pc="268437045" symbol="onNextMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="111" pc="268437049" symbol="onPreviousMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="112" pc="268437053" symbol="onPreviousMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="114" pc="268437057" symbol="onMenu"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="115" pc="268437061" symbol="onMenu"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="117" pc="268437065" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="118" pc="268437069" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="119" pc="268437092" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="120" pc="268437111" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="121" pc="268437123" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="124" pc="268437152" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="125" pc="268437171" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="126" pc="268437199" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="127" pc="268437224" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="128" pc="268437248" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="130" pc="268437309" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="131" pc="268437353" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="132" pc="268437397" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="134" pc="268437403" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="137" pc="268437407" symbol="repaint"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="138" pc="268437411" symbol="repaint"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="141" pc="268437438" symbol="setLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="142" pc="268437442" symbol="setLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="143" pc="268437465" symbol="setLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="145" pc="268437487" symbol="setLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueDelegate.mc" lineNum="146" pc="268437506" symbol="setLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="26" pc="268437519" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="27" pc="268437523" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="30" pc="268437542" symbol="onLayout"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="31" pc="268437546" symbol="onLayout"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="34" pc="268437584" symbol="onShow"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="38" pc="268437589" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="39" pc="268437593" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="40" pc="268437613" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="41" pc="268437653" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="42" pc="268437663" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="43" pc="268437679" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="44" pc="268437695" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="45" pc="268437707" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="46" pc="268437747" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="47" pc="268437808" symbol="drawUnSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="50" pc="268437840" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="51" pc="268437844" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="52" pc="268437860" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="53" pc="268437876" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="54" pc="268437888" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="55" pc="268437888" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="56" pc="268437893" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="58" pc="268437912" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="59" pc="268437917" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="60" pc="268437922" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="62" pc="268437941" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="65" pc="268437960" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="68" pc="268437976" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="69" pc="268438004" symbol="drawLightCircle"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="72" pc="268438023" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="73" pc="268438027" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="74" pc="268438067" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="75" pc="268438077" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="76" pc="268438117" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="77" pc="268438178" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="78" pc="268438218" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="79" pc="268438277" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="80" pc="268438336" symbol="drawSelectedLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="83" pc="268438368" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="84" pc="268438372" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="85" pc="268438412" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="86" pc="268438424" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="87" pc="268438456" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="88" pc="268438510" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="90" pc="268438514" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="92" pc="268438539" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="93" pc="268438561" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="94" pc="268438583" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="95" pc="268438594" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="97" pc="268438625" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="98" pc="268438660" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="100" pc="268438691" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="101" pc="268438695" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="101" pc="268438715" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="102" pc="268438768" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="102" pc="268438788" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="103" pc="268438859" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="104" pc="268438921" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="104" pc="268438941" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="105" pc="268439012" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="105" pc="268439032" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="106" pc="268439103" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="107" pc="268439143" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="108" pc="268439196" symbol="onUpdateLightsList"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="127" pc="268439211" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="128" pc="268439215" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="129" pc="268439225" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="130" pc="268439244" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="131" pc="268439263" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="132" pc="268439304" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="133" pc="268439356" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="134" pc="268439408" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="135" pc="268439460" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="136" pc="268439512" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="137" pc="268439564" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="138" pc="268439616" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="139" pc="268439668" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="140" pc="268439727" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="141" pc="268439749" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="142" pc="268439771" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="143" pc="268439823" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="144" pc="268439836" symbol="initialieDcParams"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="148" pc="268439889" symbol="getCurrentLightData"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="149" pc="268439893" symbol="getCurrentLightData"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="152" pc="268439936" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="153" pc="268439940" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="154" pc="268439953" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="155" pc="268439969" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="156" pc="268439985" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="158" pc="268440001" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="160" pc="268440041" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="166" pc="268440101" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="167" pc="268440118" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="168" pc="268440131" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="170" pc="268440174" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="172" pc="268440214" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="177" pc="268440317" symbol="drawLightArc"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="180" pc="268440335" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="181" pc="268440339" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="182" pc="268440379" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="183" pc="268440391" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="184" pc="268440413" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="185" pc="268440435" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="186" pc="268440446" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="188" pc="268440477" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="189" pc="268440512" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="191" pc="268440543" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="192" pc="268440568" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="193" pc="268440618" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="194" pc="268440686" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="195" pc="268440748" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="196" pc="268440816" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="197" pc="268440884" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="198" pc="268440924" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="199" pc="268441042" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="200" pc="268441082" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="201" pc="268441135" symbol="onUpdateSingleLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="203" pc="268441150" symbol="drawUnSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="204" pc="268441154" symbol="drawUnSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="205" pc="268441167" symbol="drawUnSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="206" pc="268441185" symbol="drawUnSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="208" pc="268441228" symbol="drawUnSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="210" pc="268441268" symbol="drawUnSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="212" pc="268441336" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="213" pc="268441340" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="214" pc="268441353" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="215" pc="268441371" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="217" pc="268441414" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="219" pc="268441454" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="220" pc="268441521" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="221" pc="268441561" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="222" pc="268441620" symbol="drawSelectedLightMode"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="224" pc="268441680" symbol="isValidLightModeForLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="225" pc="268441684" symbol="isValidLightModeForLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="226" pc="268441700" symbol="isValidLightModeForLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="227" pc="268441706" symbol="isValidLightModeForLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="229" pc="268441712" symbol="isValidLightModeForLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="230" pc="268441723" symbol="isValidLightModeForLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="232" pc="268441751" symbol="isValidLightModeForLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="237" pc="268441755" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="238" pc="268441759" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="239" pc="268441771" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="241" pc="268441788" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="242" pc="268441811" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="244" pc="268441828" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="248" pc="268441843" symbol="onHide"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="253" pc="268441848" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="254" pc="268441852" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MyHueControllerView.mc" lineNum="255" pc="268441862" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="7" pc="268441879" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="8" pc="268441883" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="9" pc="268441893" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="12" pc="268441912" symbol="onLayout"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="13" pc="268441916" symbol="onLayout"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="16" pc="268441954" symbol="onShow"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="19" pc="268441959" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="20" pc="268441963" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="21" pc="268441988" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="22" pc="268442011" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="23" pc="268442051" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="24" pc="268442063" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="28" pc="268442161" symbol="onHide"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="32" pc="268442166" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="34" pc="268442170" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="37" pc="268442187" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="38" pc="268442191" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="39" pc="268442222" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="40" pc="268442265" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="41" pc="268442308" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="42" pc="268442355" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="44" pc="268442384" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="45" pc="268442415" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="47" pc="268442433" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="48" pc="268442440" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="49" pc="268442459" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="51" pc="268442472" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="53" pc="268442509" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainView.mc" lineNum="54" pc="268442519" symbol="checkSystem"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="12" pc="268442523" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="13" pc="268442527" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="14" pc="268442549" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="15" pc="268442559" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="19" pc="268442570" symbol="handleSelectClick"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="20" pc="268442574" symbol="handleSelectClick"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="21" pc="268442644" symbol="handleSelectClick"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="23" pc="268442659" symbol="handleSelectClick"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="25" pc="268442671" symbol="handleSelectClick"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="28" pc="268442675" symbol="onMenu"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="29" pc="268442679" symbol="onMenu"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="32" pc="268442692" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="33" pc="268442696" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="36" pc="268442709" symbol="createNewView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="37" pc="268442713" symbol="createNewView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="38" pc="268442737" symbol="createNewView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="39" pc="268442785" symbol="createNewView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="42" pc="268442818" symbol="createFinderView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="43" pc="268442822" symbol="createFinderView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="44" pc="268442846" symbol="createFinderView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\MainDelegate.mc" lineNum="45" pc="268442894" symbol="createFinderView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="5" pc="268442927" symbol="makeLightsRequest"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="6" pc="268442931" symbol="makeLightsRequest"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="13" pc="268443011" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="14" pc="268443015" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="15" pc="268443015" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="16" pc="268443037" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="17" pc="268443071" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="18" pc="268443133" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="20" pc="268443161" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="22" pc="268443186" symbol="setLight"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="28" pc="268443271" symbol="checkUserNameRequest"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="29" pc="268443275" symbol="checkUserNameRequest"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="36" pc="268443342" symbol="makeIpRequest"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueJson.mc" lineNum="37" pc="268443346" symbol="makeIpRequest"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="8" pc="268443390" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="9" pc="268443394" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="10" pc="268443407" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="11" pc="268443438" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="12" pc="268443460" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="14" pc="268443491" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="16" pc="268443510" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="17" pc="268443529" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="20" pc="268443548" symbol="onLayout"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="21" pc="268443552" symbol="onLayout"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="24" pc="268443590" symbol="onShow"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="27" pc="268443595" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="28" pc="268443599" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="29" pc="268443639" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="30" pc="268443651" symbol="onUpdate"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="33" pc="268443749" symbol="onHide"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="36" pc="268443754" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="37" pc="268443758" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinderView.mc" lineNum="38" pc="268443774" symbol="onReceive"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="9" pc="268443791" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="10" pc="268443795" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="11" pc="268443817" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="12" pc="268443827" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="15" pc="268443838" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="16" pc="268443842" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="17" pc="268443868" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="18" pc="268443900" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="19" pc="268443919" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="21" pc="268443942" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="22" pc="268443973" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="23" pc="268443995" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="24" pc="268444032" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="26" pc="268444064" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="27" pc="268444097" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="28" pc="268444131" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="30" pc="268444190" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="31" pc="268444232" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="33" pc="268444285" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="34" pc="268444327" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="36" pc="268444350" symbol="onSelect"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="39" pc="268444354" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="40" pc="268444358" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="41" pc="268444369" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="42" pc="268444385" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="43" pc="268444429" symbol="onReceiveLights"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="46" pc="268444456" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="47" pc="268444460" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="48" pc="268444488" symbol="onBack"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="51" pc="268444492" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="52" pc="268444496" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="53" pc="268444546" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="54" pc="268444557" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="55" pc="268444565" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="56" pc="268444602" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="57" pc="268444633" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="58" pc="268444671" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="60" pc="268444690" symbol="onReceiveIp"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="64" pc="268444717" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="65" pc="268444721" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="66" pc="268444750" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="67" pc="268444761" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="68" pc="268444780" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="69" pc="268444829" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="70" pc="268444881" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="71" pc="268444904" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="72" pc="268444948" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="73" pc="268444992" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="74" pc="268445042" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="76" pc="268445077" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueFinder.mc" lineNum="79" pc="268445139" symbol="onReceiveUserName"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="8" pc="268445166" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="10" pc="268445171" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="11" pc="268445175" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="12" pc="268445194" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="13" pc="268445214" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="14" pc="268445243" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="15" pc="268445268" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="16" pc="268445275" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="17" pc="268445285" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="18" pc="268445308" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="19" pc="268445318" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="21" pc="268445331" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="22" pc="268445348" symbol="setCommandResult"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="25" pc="268445382" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="26" pc="268445386" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="27" pc="268445394" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="28" pc="268445414" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="29" pc="268445429" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="30" pc="268445436" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="31" pc="268445466" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="33" pc="268445501" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="34" pc="268445515" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueData.mc" lineNum="36" pc="268445525" symbol="splitString"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="5" pc="268445529" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="8" pc="268445533" symbol="initialize"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="11" pc="268445552" symbol="onStart"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="13" pc="268445557" symbol="onStop"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="16" pc="268445562" symbol="getInitialView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="17" pc="268445566" symbol="getInitialView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="18" pc="268445590" symbol="getInitialView"/>
+<entry filename="C:\\Users\\oscheuch\\workspace\\hueController\\source\\HueControllerApp.mc" lineNum="19" pc="268445622" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="36" pc="268445700" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="38" pc="268445704" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="39" pc="268445835" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="40" pc="268445887" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="43" pc="268445939" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="70" symbol="DC_MIN_RAD"/>
-<entry field="true" id="89" symbol="getParams"/>
-<entry id="81" method="true" symbol="isValidLightModeForLight"/>
+<entry field="true" id="71" symbol="DC_MIN_RAD"/>
+<entry field="true" id="90" symbol="getParams"/>
+<entry id="82" method="true" symbol="isValidLightModeForLight"/>
 <entry id="11" object="true" symbol="Util"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry field="true" id="68" symbol="DC_HEIGHT"/>
-<entry field="true" id="46" symbol="dc_line_delta"/>
-<entry field="true" id="59" symbol="X_TEXT_START"/>
-<entry field="true" id="67" symbol="DC_WIDTH"/>
-<entry field="true" id="101" symbol="lights"/>
-<entry id="78" method="true" symbol="onUpdateSingleLight"/>
+<entry field="true" id="69" symbol="DC_HEIGHT"/>
+<entry field="true" id="47" symbol="dc_line_delta"/>
+<entry field="true" id="60" symbol="X_TEXT_START"/>
+<entry field="true" id="68" symbol="DC_WIDTH"/>
+<entry field="true" id="102" symbol="lights"/>
+<entry id="79" method="true" symbol="onUpdateSingleLight"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry id="79" method="true" symbol="drawUnSelectedLightMode"/>
-<entry field="true" id="65" symbol="Y_TEXT_6"/>
-<entry field="true" id="64" symbol="Y_TEXT_5"/>
-<entry field="true" id="63" symbol="Y_TEXT_4"/>
-<entry field="true" id="62" symbol="Y_TEXT_3"/>
-<entry field="true" id="60" symbol="Y_TEXT_2"/>
-<entry field="true" id="61" symbol="Y_TEXT_1"/>
-<entry field="true" id="104" symbol="stage"/>
+<entry id="80" method="true" symbol="drawUnSelectedLightMode"/>
+<entry field="true" id="66" symbol="Y_TEXT_6"/>
+<entry field="true" id="65" symbol="Y_TEXT_5"/>
+<entry field="true" id="64" symbol="Y_TEXT_4"/>
+<entry field="true" id="63" symbol="Y_TEXT_3"/>
+<entry field="true" id="61" symbol="Y_TEXT_2"/>
+<entry field="true" id="62" symbol="Y_TEXT_1"/>
+<entry field="true" id="105" symbol="stage"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
-<entry id="50" method="true" symbol="makeLightsRequest"/>
-<entry field="true" id="90" symbol="postParams"/>
+<entry id="51" method="true" symbol="makeLightsRequest"/>
+<entry field="true" id="91" symbol="postParams"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
 <entry id="8388770" module="true" symbol="Strings"/>
-<entry field="true" id="44" symbol="forceNewSearch"/>
+<entry field="true" id="45" symbol="forceNewSearch"/>
 <entry id="16" module="true" symbol="HueJson"/>
-<entry id="52" method="true" symbol="checkUserNameRequest"/>
-<entry field="true" id="35" symbol="off"/>
+<entry id="53" method="true" symbol="checkUserNameRequest"/>
+<entry field="true" id="36" symbol="off"/>
 <entry id="8389082" method="true" symbol="onNextMode"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="105" method="true" symbol="setCommandResult"/>
-<entry id="94" method="true" symbol="isValidIpAdress"/>
-<entry id="30" method="true" symbol="MainLayout"/>
-<entry field="true" id="45" symbol="y_text_6"/>
-<entry field="true" id="47" symbol="y_text_5"/>
-<entry field="true" id="48" symbol="y_text_4"/>
-<entry field="true" id="41" symbol="y_text_3"/>
-<entry field="true" id="42" symbol="y_text_2"/>
-<entry field="true" id="43" symbol="y_text_1"/>
-<entry id="56" method="true" symbol="drawLightCircle"/>
+<entry id="106" method="true" symbol="setCommandResult"/>
+<entry id="96" method="true" symbol="isValidIpAdress"/>
+<entry id="88" method="true" symbol="checkSystem"/>
+<entry id="31" method="true" symbol="MainLayout"/>
+<entry field="true" id="46" symbol="y_text_6"/>
+<entry field="true" id="48" symbol="y_text_5"/>
+<entry field="true" id="49" symbol="y_text_4"/>
+<entry field="true" id="42" symbol="y_text_3"/>
+<entry field="true" id="43" symbol="y_text_2"/>
+<entry field="true" id="44" symbol="y_text_1"/>
+<entry id="57" method="true" symbol="drawLightCircle"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="21" module="true" symbol="AppData"/>
-<entry id="55" method="true" symbol="drawUnSelectedLight"/>
+<entry id="56" method="true" symbol="drawUnSelectedLight"/>
 <entry id="95" method="true" symbol="ipAdressChanged"/>
-<entry id="53" method="true" symbol="makeIpRequest"/>
+<entry id="54" method="true" symbol="makeIpRequest"/>
 <entry field="true" id="8389115" symbol="mMessage"/>
-<entry field="true" id="103" symbol="lightMode"/>
+<entry field="true" id="104" symbol="lightMode"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="40" symbol="AppName"/>
+<entry field="true" id="41" symbol="AppName"/>
 <entry id="13" object="true" symbol="MyHueControllerView"/>
 <entry id="8389594" symbol="headers"/>
-<entry field="true" id="38" symbol="y_bottom_line"/>
-<entry field="true" id="37" symbol="x_text_start"/>
-<entry id="80" method="true" symbol="drawSelectedLightMode"/>
-<entry field="true" id="83" symbol="selectFromStageOneToTwo"/>
+<entry field="true" id="39" symbol="y_bottom_line"/>
+<entry field="true" id="38" symbol="x_text_start"/>
+<entry id="81" method="true" symbol="drawSelectedLightMode"/>
+<entry field="true" id="84" symbol="selectFromStageOneToTwo"/>
 <entry id="12" object="true" symbol="MyHueDelegate"/>
-<entry id="24" method="true" symbol="onReceiveIp"/>
-<entry field="true" id="73" symbol="DC_LINE_DELTA"/>
-<entry id="76" method="true" symbol="getCurrentLightData"/>
+<entry id="25" method="true" symbol="onReceiveIp"/>
+<entry field="true" id="74" symbol="DC_LINE_DELTA"/>
+<entry id="77" method="true" symbol="getCurrentLightData"/>
 <entry id="17" object="true" symbol="HueFinderView"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="87" method="true" symbol="setLights"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
 <entry field="true" id="22" symbol="hueData"/>
-<entry field="true" id="74" symbol="DC_LINE_SPACE"/>
-<entry field="true" id="29" symbol="LauncherIcon"/>
+<entry field="true" id="75" symbol="DC_LINE_SPACE"/>
+<entry field="true" id="30" symbol="LauncherIcon"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="86" method="true" symbol="repaint"/>
 <entry id="8388786" symbol="method"/>
 <entry id="20" object="true" symbol="MyHueControllerApp"/>
-<entry id="96" method="true" symbol="handleSelectClick"/>
+<entry id="97" method="true" symbol="handleSelectClick"/>
 <entry id="8389083" method="true" symbol="onPreviousMode"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="15" object="true" symbol="MainDelegate"/>
-<entry field="true" id="32" symbol="night"/>
+<entry field="true" id="33" symbol="night"/>
 <entry id="8389065" symbol="locY"/>
-<entry id="57" method="true" symbol="drawSelectedLight"/>
+<entry id="58" method="true" symbol="drawSelectedLight"/>
 <entry id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
-<entry field="true" id="102" symbol="selectedLight"/>
+<entry field="true" id="103" symbol="selectedLight"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="77" method="true" symbol="drawLightArc"/>
-<entry id="97" method="true" symbol="createNewView"/>
+<entry id="78" method="true" symbol="drawLightArc"/>
+<entry id="98" method="true" symbol="createNewView"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="92" symbol="lightModes"/>
-<entry field="true" id="28" symbol="id_monkey"/>
-<entry field="true" id="88" symbol="putParams"/>
+<entry field="true" id="93" symbol="lightModes"/>
+<entry field="true" id="29" symbol="id_monkey"/>
+<entry field="true" id="89" symbol="putParams"/>
 <entry field="true" id="23" symbol="notify"/>
-<entry field="true" id="66" symbol="Y_BOTTOM_LINE"/>
+<entry field="true" id="67" symbol="Y_BOTTOM_LINE"/>
 <entry id="18" object="true" symbol="HueFinder"/>
-<entry field="true" id="99" symbol="myBridge"/>
-<entry field="true" id="69" symbol="dc_initialized"/>
+<entry field="true" id="100" symbol="myBridge"/>
+<entry field="true" id="70" symbol="dc_initialized"/>
 <entry id="14" object="true" symbol="MainView"/>
-<entry id="51" method="true" symbol="setLight"/>
-<entry field="true" id="39" symbol="ipAdress"/>
-<entry field="true" id="54" symbol="displayLines"/>
-<entry field="true" id="91" symbol="newUserParams"/>
-<entry field="true" id="71" symbol="DC_WIDTH_HALF"/>
-<entry id="27" module="true" symbol="Layouts"/>
-<entry field="true" id="100" symbol="bridge"/>
+<entry id="52" method="true" symbol="setLight"/>
+<entry field="true" id="40" symbol="ipAdress"/>
+<entry field="true" id="55" symbol="displayLines"/>
+<entry field="true" id="92" symbol="newUserParams"/>
+<entry field="true" id="72" symbol="DC_WIDTH_HALF"/>
+<entry id="28" module="true" symbol="Layouts"/>
+<entry field="true" id="101" symbol="bridge"/>
 <entry id="8389079" method="true" symbol="onPreviousPage"/>
-<entry field="true" id="36" symbol="full"/>
+<entry field="true" id="37" symbol="full"/>
 <entry id="85" method="true" symbol="onSetLight"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry id="25" method="true" symbol="onReceiveUserName"/>
-<entry field="true" id="33" symbol="bright"/>
-<entry field="true" id="31" symbol="cloop"/>
+<entry id="26" method="true" symbol="onReceiveUserName"/>
+<entry field="true" id="34" symbol="bright"/>
+<entry field="true" id="32" symbol="cloop"/>
 <entry id="8389345" symbol="rezId"/>
-<entry id="98" method="true" symbol="createFinderView"/>
+<entry id="99" method="true" symbol="createFinderView"/>
 <entry id="8389844" symbol="responseType"/>
 <entry id="8389063" symbol="identifier"/>
-<entry id="26" module="true" symbol="Menus"/>
-<entry id="93" method="true" symbol="splitString"/>
-<entry id="82" method="true" symbol="onReceive"/>
-<entry id="84" method="true" symbol="onReceiveLights"/>
-<entry field="true" id="34" symbol="dimm"/>
-<entry id="58" method="true" symbol="onUpdateLightsList"/>
-<entry id="75" method="true" symbol="initialieDcParams"/>
+<entry id="27" module="true" symbol="Menus"/>
+<entry id="94" method="true" symbol="splitString"/>
+<entry id="83" method="true" symbol="onReceive"/>
+<entry field="true" id="35" symbol="dimm"/>
+<entry id="24" method="true" symbol="onReceiveLights"/>
+<entry id="59" method="true" symbol="onUpdateLightsList"/>
+<entry id="76" method="true" symbol="initialieDcParams"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
 <entry id="19" object="true" symbol="HueData"/>
-<entry id="49" symbol="mView"/>
-<entry field="true" id="72" symbol="DC_HEIGHT_HALF"/>
+<entry id="50" symbol="mView"/>
+<entry field="true" id="73" symbol="DC_HEIGHT_HALF"/>
 </symbolTable>
 <localVars>
 <entry endPc="268435596" name="index" stackId="4" startPc="268435488"/>
 <entry endPc="268435602" name="arr" stackId="3" startPc="268435460"/>
-<entry endPc="268435731" name="num" stackId="4" startPc="268435684"/>
-<entry endPc="268435744" name="i" stackId="3" startPc="268435684"/>
-<entry endPc="268435747" name="arr" stackId="2" startPc="268435607"/>
-<entry endPc="268436168" name="commandResult" stackId="4" startPc="268436117"/>
-<entry endPc="268436181" name="i" stackId="3" startPc="268436117"/>
-<entry endPc="268437187" name="i" stackId="2" startPc="268437126"/>
-<entry endPc="268437278" name="keys" stackId="1" startPc="268437030"/>
-<entry endPc="268437717" name="on" stackId="7" startPc="268437471"/>
-<entry endPc="268437717" name="name" stackId="5" startPc="268437471"/>
-<entry endPc="268437717" name="reachable" stackId="6" startPc="268437471"/>
-<entry endPc="268437717" name="storedSession" stackId="8" startPc="268437471"/>
-<entry endPc="268437900" name="on" stackId="7" startPc="268437722"/>
-<entry endPc="268437900" name="color" stackId="9" startPc="268437722"/>
-<entry endPc="268437900" name="reachable" stackId="6" startPc="268437722"/>
-<entry endPc="268437900" name="storedSession" stackId="8" startPc="268437722"/>
-<entry endPc="268438245" name="name" stackId="5" startPc="268437905"/>
-<entry endPc="268439050" name="i" stackId="5" startPc="268438250"/>
-<entry endPc="268439050" name="keys" stackId="2" startPc="268438250"/>
-<entry endPc="268439050" name="endIndex" stackId="4" startPc="268438250"/>
-<entry endPc="268439050" name="startIndex" stackId="3" startPc="268438250"/>
-<entry endPc="268440174" name="on" stackId="5" startPc="268439780"/>
-<entry endPc="268440174" name="reachable" stackId="4" startPc="268439780"/>
-<entry endPc="268440174" name="lightData" stackId="2" startPc="268439780"/>
-<entry endPc="268440174" name="brightness" stackId="3" startPc="268439780"/>
-<entry endPc="268440989" name="keys" stackId="4" startPc="268440179"/>
-<entry endPc="268440989" name="endIndex" stackId="3" startPc="268440179"/>
-<entry endPc="268440989" name="startIndex" stackId="2" startPc="268440179"/>
-<entry endPc="268441175" name="lightData" stackId="5" startPc="268440994"/>
-<entry endPc="268441519" name="lightData" stackId="5" startPc="268441180"/>
-<entry endPc="268441594" name="reachable" stackId="3" startPc="268441524"/>
-<entry endPc="268442079" name="forceNewSearch" stackId="2" startPc="268441989"/>
-<entry endPc="268442079" name="ipAdress" stackId="1" startPc="268441989"/>
-<entry endPc="268442391" name="ipAdress" stackId="3" startPc="268442334"/>
-<entry endPc="268442494" name="m" stackId="4" startPc="268442394"/>
-<entry endPc="268442504" name="ipAdress" stackId="2" startPc="268442084"/>
-<entry endPc="268442746" name="myHueView" stackId="1" startPc="268442642"/>
-<entry endPc="268442746" name="myHueDelegate" stackId="2" startPc="268442642"/>
-<entry endPc="268442855" name="myFinderView" stackId="1" startPc="268442751"/>
-<entry endPc="268442855" name="myHueDelegate" stackId="2" startPc="268442751"/>
-<entry endPc="268443199" name="light" stackId="4" startPc="268442944"/>
-<entry endPc="268443199" name="lightMode" stackId="5" startPc="268442944"/>
-<entry endPc="268443199" name="params" stackId="3" startPc="268442944"/>
-<entry endPc="268443476" name="ipAdress" stackId="1" startPc="268443323"/>
-<entry endPc="268444178" name="ipAdress" stackId="1" startPc="268443771"/>
-<entry endPc="268444407" name="bridge" stackId="3" startPc="268444277"/>
-<entry endPc="268445098" name="i" stackId="4" startPc="268444988"/>
-<entry endPc="268445098" name="data" stackId="5" startPc="268444988"/>
-<entry endPc="268445101" name="arr" stackId="3" startPc="268444895"/>
-<entry endPc="268445101" name="key" stackId="2" startPc="268444895"/>
-<entry endPc="268445242" name="index" stackId="4" startPc="268445134"/>
-<entry endPc="268445248" name="arr" stackId="3" startPc="268445106"/>
-<entry endPc="268445648" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268445396"/>
+<entry endPc="268435697" name="forceNewSearch" stackId="2" startPc="268435607"/>
+<entry endPc="268435697" name="ipAdress" stackId="1" startPc="268435607"/>
+<entry endPc="268435839" name="num" stackId="4" startPc="268435792"/>
+<entry endPc="268435852" name="i" stackId="3" startPc="268435792"/>
+<entry endPc="268435855" name="arr" stackId="2" startPc="268435702"/>
+<entry endPc="268436290" name="commandResult" stackId="4" startPc="268436239"/>
+<entry endPc="268436303" name="i" stackId="3" startPc="268436239"/>
+<entry endPc="268437309" name="i" stackId="2" startPc="268437248"/>
+<entry endPc="268437400" name="keys" stackId="1" startPc="268437152"/>
+<entry endPc="268437839" name="on" stackId="7" startPc="268437593"/>
+<entry endPc="268437839" name="name" stackId="5" startPc="268437593"/>
+<entry endPc="268437839" name="reachable" stackId="6" startPc="268437593"/>
+<entry endPc="268437839" name="storedSession" stackId="8" startPc="268437593"/>
+<entry endPc="268438022" name="on" stackId="7" startPc="268437844"/>
+<entry endPc="268438022" name="color" stackId="9" startPc="268437844"/>
+<entry endPc="268438022" name="reachable" stackId="6" startPc="268437844"/>
+<entry endPc="268438022" name="storedSession" stackId="8" startPc="268437844"/>
+<entry endPc="268438367" name="name" stackId="5" startPc="268438027"/>
+<entry endPc="268439210" name="i" stackId="5" startPc="268438372"/>
+<entry endPc="268439210" name="keys" stackId="2" startPc="268438372"/>
+<entry endPc="268439210" name="endIndex" stackId="4" startPc="268438372"/>
+<entry endPc="268439210" name="startIndex" stackId="3" startPc="268438372"/>
+<entry endPc="268440334" name="on" stackId="5" startPc="268439940"/>
+<entry endPc="268440334" name="reachable" stackId="4" startPc="268439940"/>
+<entry endPc="268440334" name="lightData" stackId="2" startPc="268439940"/>
+<entry endPc="268440334" name="brightness" stackId="3" startPc="268439940"/>
+<entry endPc="268441149" name="keys" stackId="4" startPc="268440339"/>
+<entry endPc="268441149" name="endIndex" stackId="3" startPc="268440339"/>
+<entry endPc="268441149" name="startIndex" stackId="2" startPc="268440339"/>
+<entry endPc="268441335" name="lightData" stackId="5" startPc="268441154"/>
+<entry endPc="268441679" name="lightData" stackId="5" startPc="268441340"/>
+<entry endPc="268441754" name="reachable" stackId="3" startPc="268441684"/>
+<entry endPc="268442430" name="ipAdress" stackId="2" startPc="268442384"/>
+<entry endPc="268442522" name="m" stackId="3" startPc="268442433"/>
+<entry endPc="268442522" name="ipAdress" stackId="1" startPc="268442191"/>
+<entry endPc="268442817" name="myHueView" stackId="1" startPc="268442713"/>
+<entry endPc="268442817" name="myHueDelegate" stackId="2" startPc="268442713"/>
+<entry endPc="268442926" name="myFinderView" stackId="1" startPc="268442822"/>
+<entry endPc="268442926" name="myHueDelegate" stackId="2" startPc="268442822"/>
+<entry endPc="268443270" name="light" stackId="4" startPc="268443015"/>
+<entry endPc="268443270" name="lightMode" stackId="5" startPc="268443015"/>
+<entry endPc="268443270" name="params" stackId="3" startPc="268443015"/>
+<entry endPc="268443547" name="ipAdress" stackId="1" startPc="268443394"/>
+<entry endPc="268444353" name="ipAdress" stackId="1" startPc="268443842"/>
+<entry endPc="268444687" name="bridge" stackId="3" startPc="268444557"/>
+<entry endPc="268445378" name="i" stackId="4" startPc="268445268"/>
+<entry endPc="268445378" name="data" stackId="5" startPc="268445268"/>
+<entry endPc="268445381" name="arr" stackId="3" startPc="268445175"/>
+<entry endPc="268445381" name="key" stackId="2" startPc="268445175"/>
+<entry endPc="268445522" name="index" stackId="4" startPc="268445414"/>
+<entry endPc="268445528" name="arr" stackId="3" startPc="268445386"/>
+<entry endPc="268445699" name="hueData" stackId="1" startPc="268445566"/>
+<entry endPc="268445956" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268445704"/>
 </localVars>
 <annotations/>
 <functions>
 <functionEntry name="splitString" parent="Util">
 <param id="string"/>
 <param id="delim"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="ipAdressChanged" parent="Util">
 <documentation/>
 </functionEntry>
 <functionEntry name="isValidIpAdress" parent="Util">
@@ -736,6 +758,7 @@
 <documentation/>
 </functionEntry>
 <functionEntry name="initialize" parent="MainView">
+<param id="hueDa"/>
 <documentation/>
 </functionEntry>
 <functionEntry name="onLayout" parent="MainView">
@@ -756,11 +779,12 @@
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="ipAdressChanged" parent="MainDelegate">
+<functionEntry name="checkSystem" parent="MainView">
 <documentation/>
 </functionEntry>
 <functionEntry name="initialize" parent="MainDelegate">
 <param id="handler"/>
+<param id="hueDa"/>
 <documentation/>
 </functionEntry>
 <functionEntry name="handleSelectClick" parent="MainDelegate">
@@ -824,6 +848,11 @@
 <documentation/>
 </functionEntry>
 <functionEntry name="onSelect" parent="HueFinder">
+<documentation/>
+</functionEntry>
+<functionEntry name="onReceiveLights" parent="HueFinder">
+<param id="responseCode"/>
+<param id="data"/>
 <documentation/>
 </functionEntry>
 <functionEntry name="onBack" parent="HueFinder">

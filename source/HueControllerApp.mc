@@ -3,6 +3,8 @@ using Toybox.Application as App;
 class MyHueControllerApp extends App.AppBase {
     hidden var mView;  
     function initialize() {
+    //	App.getApp().setProperty("lights",null);
+    //    App.getApp().setProperty("bridge",null);
         AppBase.initialize();
     }
 
@@ -12,8 +14,9 @@ class MyHueControllerApp extends App.AppBase {
     }
 
     function getInitialView() {
-    	mView = new MainView();
-        return [mView, new MainDelegate(mView.method(:onReceive))];
+    	var hueData = new HueData();
+    	mView = new MainView(hueData);
+        return [mView, new MainDelegate(mView.method(:onReceive), hueData)];
      
     }
 }

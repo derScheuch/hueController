@@ -33,8 +33,10 @@ class MyHueDelegate extends Ui.BehaviorDelegate {
     }
   
     function onReceiveLights(responseCode, data) {
-       hueData.lights = data;
-       setLights();
+    	if (responseCode == 200) {
+       		hueData.lights = data;
+       		setLights();
+       	} 
     }
  
     function onSetLight(responseCode, data) {

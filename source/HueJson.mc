@@ -10,7 +10,7 @@ module HueJson {
          receiver
        );
     }
-     function setLight(hueData, receiver) {
+    function setLight(hueData, receiver) {
       var params;
       var light = "" + (hueData.selectedLight + 1);
       var lightMode = AppData.lightModes.keys()[hueData.lightMode];

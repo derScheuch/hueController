@@ -83,7 +83,8 @@ class MyHueControllerView extends Ui.View {
     function onUpdateLightsList(dc) {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
     	dc.clear();
-    	if (hueData.lights == null || hueData.lights.isEmpty()) {
+    	System.println(hueData.lights);
+    	if (hueData.lights == null || hueData.lights.size() == 0) {
     	   return;
         }
     	var keys = hueData.lights.keys();

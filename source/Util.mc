@@ -1,3 +1,5 @@
+using Toybox.Application as App;
+
 class Util {
 
 static function splitString(string, delim) {
@@ -13,7 +15,15 @@ static function splitString(string, delim) {
   		}
   	}return arr;
   }
+  static function ipAdressChanged() {
+    	var ipAdress =  App.getApp().getProperty("ipAdress");
+    	var forceNewSearch = App.getApp().getProperty("forceNewSearch");
+    	return (forceNewSearch && Util.isValidIpAdress(ipAdress));
+    }
 static function isValidIpAdress(ipAdress) {
+    if (ipAdress == null) {
+        return false;
+    }
 	var arr = splitString(ipAdress, ".");
 	if (arr == null) {
 		return false;
